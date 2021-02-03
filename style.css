@@ -86,3 +86,40 @@ body{
 	left: -5%;
 	top: 48%;
 }
+
+@media(max-width: 1200px){
+	.container{
+		max-width: 960px;
+	}
+}
+.section > .container{
+	margin-top: 350px;
+	display: flex;
+	justify-content: space-between;
+	/*align-items: center;*/
+}
+.section__image{
+	position: relative;
+	width: 45%;
+}
+.section__content{
+	width: 45%;
+	margin-top: 130px;
+}
+.section__content-title{
+	font-size: 40px;
+	width: 380px;
+	margin-bottom: 30px;
+}
+.section__content-text{
+	line-height: 1.8;
+}
+.user{
+	display: flex;
+	transform: translateX(-30px);
+}
+.photo_2{
+	transform: translateY(-30px) translateX(-37px);
+	/*margin-right: 50px;*/
+	width: 630px;
+}
