@@ -1,0 +1,42 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	font-family: 'Manrope', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.nav{
+	background-color: #5855EE;
+	height: 100vh;
+}
+.nav > .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px;
+}
+.nav__title{
+	color: white;
+	font-size: 30px;
+}
+.nav__list{
+	display: flex;
+	margin: 0 auto;
+}
+.nav__item{
+	margin: 20px;
+	color: white;
+}
+.nav__link{
+	border: 1px solid white;
+	padding: 10px 15px;
+	background-color: white;
+	border-radius: 5px;
+}
