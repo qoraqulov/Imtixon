@@ -236,3 +236,60 @@ span{
 	margin: 0 auto;
 	text-align: center;
 }
+.gro{
+	margin-top: 100px;
+}
+
+.gro .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gro-content{
+    width: 45%;
+}
+.client-image{
+    position: relative;
+    width: 43%;
+}
+.profile-user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.client-image__content{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.client-image__box{
+    width: 50px;
+
+}
+.shamim{
+    margin: 10px;
+}
+.shamim-profile{
+    width: 90%;
+}
+.client-image__box{
+    width: 100%;
+}
+.button{
+    background-color: white;
+    border: none;
+    margin: 30px 10px;
+
+}
+.ways{
+    width: 40px;
+    height: 40px;
+}
+.business__link{
+    text-decoration: none;
+    color: #5855EE;
+}
+.business__title{
+    font-size: 60px;
+}
